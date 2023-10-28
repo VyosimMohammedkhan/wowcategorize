@@ -1,0 +1,96 @@
+.custom-tooltip1 {
+  height: 45px;
+  border: 1px solid cornflowerblue;
+  overflow: auto;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-tooltip2 {
+  width: fit-content;
+  padding: 4%;
+  border: 1px solid cornflowerblue;
+  overflow: auto;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-tooltip {
+  height: 70px;
+  border: 1px solid cornflowerblue;
+  overflow: auto;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+
+.custom-header-class {
+  background-color: #f1f1f1;
+  color: #000000;
+  font-weight: bold;
+}
+
+.ag-custom-loading {
+  height: 50%;
+  width: 50%;
+  background-image: url(../public/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 30%;
+  position: absolute;
+  top: 12%;
+  left: 25%
+}
+
+.ag-custom-loading2 {
+  height: 50%;
+  width: 50%;
+  background-image: url(../public/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 30%;
+  position: absolute;
+  top: 45%;
+}
+
+#renderedHTML ul>li> {
+
+  --bs-nav-link-hover-color: black !important;
+  --bs-nav-tabs-link-active-bg: #f1f1f1 !important;
+}
+
+
+.nav-item {
+  background-color: rgb(243, 242, 242) !important;
+  border-style: ridge !important;
+  border-color: black !important;
+  border-width: 2px !important;
+  border-radius: 5px !important;
+}
+
+.renderhtml-tab-content {
+  width: 60% !important;
+
+}
+
+.nav-link {
+  text-align: left;
+  padding: 2px !important
+}
+
+.sidebar-container,
+.scrollable-content {
+  height: 33vh;
+}
+
+.scrollable-sidebar {
+  height: 33vh;
+  overflow-y: scroll;
+}
+
+.scrollable-content {
+  height: 33vh;
+  overflow-y: scroll;
+}
